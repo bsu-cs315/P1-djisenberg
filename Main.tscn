@@ -6,3 +6,8 @@
 
 [node name="Ball" parent="." instance=ExtResource( 1 )]
 position = Vector2( 200, 0 )
+
+[node name="World" type="Area2D" parent="."]
+
+[node name="TileMap" type="TileMap" parent="World"]
+format = 1

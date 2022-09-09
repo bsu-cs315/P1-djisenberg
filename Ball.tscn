@@ -10,5 +10,5 @@ radius = 16.0312
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )
 
-[node name="Sprite" type="Sprite" parent="."]
+[node name="blue" type="Sprite" parent="."]
 texture = ExtResource( 1 )

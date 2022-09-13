@@ -7,10 +7,8 @@ var _launched := false
 
 func _process(_delta):
 	if not _launched and Input.is_action_just_pressed("launch"):
-		var _xVector = magnitude * cos(angle)
-		var _yVector = magnitude * sin(angle)
-		print("Angle: " + str(angle) + "\nX component: " + str(_xVector) + "\nY component: " + str(_yVector) + "\n")
 		apply_impulse(Vector2.ZERO, Vector2(magnitude*cos(deg2rad(angle)), magnitude*sin(deg2rad(angle))))
+		#_launched = true
 	elif Input.is_action_pressed("angle_up"):
 		if not angle >= 0:
 			angle += 1

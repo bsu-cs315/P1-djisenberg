@@ -7,6 +7,8 @@ var _launched := false
 
 func _process(_delta):
 	if not _launched and Input.is_action_just_pressed("launch"):
+		var _soundNode :AudioStreamPlayer = get_child(2)
+		_soundNode.play()
 		apply_impulse(Vector2.ZERO, Vector2(magnitude*cos(deg2rad(angle)), magnitude*sin(deg2rad(angle))))
 		#_launched = true
 	elif Input.is_action_pressed("angle_up"):

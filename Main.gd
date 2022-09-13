@@ -14,6 +14,8 @@ func _ready():
 
 
 func _on_Target_body_entered(body):
+	var _targetSound :AudioStreamPlayer = get_child(1).get_child(2)
+	_targetSound.play()
 	if body == get_children()[0]:
 		print("Target collided with the ball!")
 	else:

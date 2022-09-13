@@ -21,7 +21,7 @@ No third party assets are used at this time
 - [x] C-3: You have a clear legal right to use all incorporated assets, the licenses for all third-party assets are tracked in the <code>README.md</code> file, and you have satisfied all license requirements.
 - [x] C-4: The <code>README.md</code> contains instructions for how to play the game or such instructions are incorporated into the game.
 - [x] C-5: The projectile and targets are shown with 2D graphics.
-- [ ] C-6: The game plays an appropriate sound effect when the projectile is fired, and the sound effect is correctly stored as a <code>.wav</code> asset.
+- [x] C-6: The game plays an appropriate sound effect when the projectile is fired, and the sound effect is correctly stored as a <code>.wav</code> asset.
 - [ ] B-1: The project report is complete.
 - [ ] B-2: Earn one star.
 - [ ] A-1: Earn three stars.
@@ -29,4 +29,4 @@ No third party assets are used at this time
 - [ ] ⭐ The background and ground use 2D graphics.
 - [ ] ⭐ A <abbr title="Heads-Up Display">HUD</abbr> shows the current game state such as the score and number of projectiles remaining.
 
-Based on the criteria above, this project currently warrents a D grade.
+Based on the criteria above, this project currently warrents a C grade.

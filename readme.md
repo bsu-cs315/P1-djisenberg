@@ -20,7 +20,7 @@ I feel like this iteration was noteworth for 3 reasons. First, it has taught me 
 - [x] C-2: Your release is tagged using <a href="https://semver.org/">semantic versioning</a> where the major version is zero, the minor version is the iteration number, the patch version is incremented as usual for each change made to the minor version, and the release name matches the release tag.
 - [x] C-3: You have a clear legal right to use all incorporated assets, the licenses for all third-party assets are tracked in the <code>README.md</code> file, and you have satisfied all license requirements.
 - [x] C-4: The <code>README.md</code> contains instructions for how to play the game or such instructions are incorporated into the game.
-- [ ] C-5: The game starts on a title screen. Interacting with the title screen moves the player into the gameplay screen.
+- [x] C-5: The game starts on a title screen. Interacting with the title screen moves the player into the gameplay screen.
 - [ ] B-1: The project report is complete.
 - [ ] B-2: Earn one star.
 - [ ] A-1: Generate neither warnings nor errors at runtime.
@@ -29,4 +29,4 @@ I feel like this iteration was noteworth for 3 reasons. First, it has taught me 
 - [ ] ⭐ Use an <code>AnimationPlayer</code> or <code>Tween</code> to add some pop to the user-interface.
 - [ ] ⭐ The source code complies with our adopted style guide.
 
-Based on the criteria above, this project currently warrents a D grade.
+Based on the criteria above, this project currently warrents a C grade.

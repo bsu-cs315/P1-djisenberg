@@ -1,0 +1,10 @@
+[gd_scene format=2]
+
+[node name="Title" type="Node"]
+
+[node name="StartButton" type="Button" parent="."]
+margin_left = 104.0
+margin_top = 95.0
+margin_right = 116.0
+margin_bottom = 115.0
+text = "Start!"
